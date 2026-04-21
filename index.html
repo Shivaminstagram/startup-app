@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="description" content="A networking platform connecting business investors with startups" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Apple PWA Support -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Startup Network" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232563eb' width='192' height='192' rx='44'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='80' font-weight='bold' font-family='Arial' fill='white'>SN</text></svg>" />
+    
+    <title>Startup Network - Connect & Collaborate</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js').catch(() => {
+          // Service worker registration failed, app will still work
+        })
+      }
+    </script>
+  </body>
+</html>

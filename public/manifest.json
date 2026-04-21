@@ -1,0 +1,50 @@
+{
+  "name": "Startup Network - Connect & Collaborate",
+  "short_name": "Startup Network",
+  "description": "A networking platform connecting business investors with startups",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232563eb' width='192' height='192'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='80' font-weight='bold' font-family='Arial' fill='white'>SN</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%232563eb' width='192' height='192'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='80' font-weight='bold' font-family='Arial' fill='white'>SN</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23f0f9ff' width='540' height='720'/><rect fill='%232563eb' width='540' height='60'/><text x='270' y='40' text-anchor='middle' font-size='24' font-weight='bold' fill='white'>Startup Network</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["business", "networking", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Browse Network",
+      "short_name": "Browse",
+      "description": "Browse and connect with other users",
+      "url": "/feed",
+      "icons": []
+    },
+    {
+      "name": "Messages",
+      "short_name": "Chat",
+      "description": "View your conversations",
+      "url": "/chats",
+      "icons": []
+    }
+  ]
+}
